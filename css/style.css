@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+header {
+    padding: 10px 0;
+    box-shadow: 10px 5px 20px #00000080;
+}
+.container {
+    width: calc(100% - 200px);
+    margin: auto;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 20%;
+    flex: 0 0 auto;
+}
+.logo a {}
+.logo a img {}
+nav {
+    width: 80%;
+    flex: 0 0 auto;
+}
+nav ul {
+    justify-content: flex-end;}
+nav ul li {
+}
+nav ul li a {
+    padding: 10px 15px;
+    color: #333;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav ul li a:hover {}
+
+section {
+    padding: 40px 0;
+}
+.signup-form-section {
+}
+.signup {
+    width: 40%;
+    flex: 0 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    background: #c8d6e596;
+    box-shadow: 10px 10px 20px #88929c, -10px -10px 20px #ffffff;
+    transition-duration: 0.3s;
+}
+.contact {
+    width: 65%;
+}
+.signup:hover {
+    box-shadow:  10px 10px 20px #ffffff, 
+                 -10px -10px 20px #88929c;
+
+}
+
+form {}
+form label {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #fff;
+    background: #6495ed00;
+    border-radius: 5px;
+    border: none;
+}
+form strong {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 5px;
+    
+}
+form textarea {}
+form input[type="radio"], 
+form input[type="checkbox"] {
+    width: auto;
+}
+form input[type="submit"] {
+    width: auto;
+    background: #7fffd473;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 10px 25px;
+    margin-top: 10px;
+    box-shadow: /* logo shadow */
+  0px 0px 2px #5f5f5f,
+  /* offset */
+  0px 0px 0px 5px #ecf0f3,
+  /*bottom right */
+  8px 8px 15px #a7aaaf,
+  /* top left */
+  -8px -8px 15px #ffffff;
+}
+input:focus, textarea:focus {
+    outline: none;
+
+}
+form p{
+    padding: 10px 0;
+}
+form p a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+form p a:hover{}
+[type="text"], [type="email"], [type="password"], textarea {
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffffba;
+}
